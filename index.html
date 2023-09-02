@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="icon" href="ip.png" type="image/x-icon">
+    <script src="portfolio.js"></script>
+   
+</head>
+<body id="body">
+    <div id="header">
+        <div class="container">
+            <nav class="nav">
+              <b><logo id="glow">Aw<span>eso</span>me.</logo></b>
+              <div class="u">
+                <ul id="sidemenu">
+                    <i class="fas-fa-times" onclick="closemenu()">&times;</i> 
+                    <li><a href="#header" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fas-fa-bars" onclick="openmenu()">&#9776;</i>
+                </div>
+            </nav>
+           
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span class="name">Awesome</span><br> from <span>Lagos</span>,<br><span class="flip">Ni</span><span class="mid">ger</span><span class="end">ia</span></h1>
+            </div>
+            <div class="top-btn">
+                <a href="#header"></a>
+            </div>
+
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="p.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a passionate UI/UX Designer Trained in front end web design in the; HTML, CSS and JS categoy. <br>Currently, i am a Professional front-end web Developer and Designer as well as an Online Tutor for Basic Codeing Practices</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Deveopment</span><br>Web App Development</li>
+                            <li><span>Web Design</span><br>Interactive Web Interface and Tutoring</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>UI/UX Design Training At Flip To Tech Institute</li>
+                            <li><span>2022-2023</span><br>Online Tuition at Flux Academy</li>
+                            <li><span>2021-2023</span><br>Internship at Flux Ltd</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>BoardTech Academy</li>
+                            <li><span>2022</span><br>Web Design Training at Flux Academy</li>
+                            <li><span>2023</span><br>UI/UX Training at Flip To Tech Ltd</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SERVICES-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Development</h2>
+                    <p>I'm a Front-End Web Developer. Specialized in Front-End Web-Interface such as "HTML,CSS,and JS" (The Main Bodies of A Web). I offer an incredible deal, Making work and funds Apprehendable.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>In this Category fo UI/UX Design, I'm specialy Trained in Icon Designing, Content Creativity, Photo Editing and Transformation, as well as Design layouts. Also including Web Designing </p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <h2>Advance Tutoring</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil molestias aut est, laudantium eius accusamus vel deleniti suscipit facilis inventore sequi dolores rerum mollitia illo nam, animi magnam! Dolores, voluptatem.</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----PORTFOLIO-->
+    <div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="work 1.jpeg" class="work-2">
+            <div class="layer">
+                <h3>Online Tuition & Traning</h3>
+                <p>This allows Me and many other Enterpurnuers to Tutor  people Worldwide </p>
+            </div>
+        </div>
+            <div class="work">
+            <img src="profi po.png" class="work-2">
+            <div class="layer">
+                <h3>Website Structuring</h3>
+                <p>This is a platform whereby we make ideas on Web Structuring for personal and public projects</p>
+            </div>
+        </div>
+            <div class="work">
+            <img src="ca pro.png" class="work-2">
+            <div class="layer">
+                <h3>Basic Web Coding</h3>
+                <p>A platform whereby we share & learn Web coding Languages and ideas</p>
+            </div>
+            </div>
+     </div>
+    </div>
+    <!----CONTACT----->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact <span>Me</span></h1>
+        <p><img rel="icon" src="gmail.png" width="39px" style="background-color: rgba(255, 255, 255, 0.315); border-radius: 22%;">    kingaao7114<span>@</span>gmail.com</p>
+                    <p><img rel="icon" src="whatsapp.png" width="39px">    <span>  +234</span>08141587744</p>
+                    <a href="CV complete.txt"  download class="btn" >Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email Address" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messsage"></textarea>
+                       <button  type="submit" class="btn btn2"><a href="#">Submit</a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <span>~</span> Awesome.Made with <span>Fl!p To Tech</span>.2023</p>
+        </div>
+    </div>
+
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
